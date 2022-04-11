@@ -6,7 +6,7 @@
         {
             char symbol = 'a';
             string name  = "Aleks";
-            int cold = -20;
+            int temperature = -20;
             uint health = 100;
             float widthBox = 12.5f;
             double price = 4990;
