@@ -1,6 +1,6 @@
 public static void Main(string[] args)
         {
-            int minute;
+            int totalMinutes;
             int grannys;
             int expactationTimeMinute;
             int expactationTimeHour;
@@ -9,9 +9,9 @@ public static void Main(string[] args)
 
             Console.WriteLine("Сколько старушек перед тобой в очереди?");
             grannys = int.Parse(Console.ReadLine());
-            minute = visitTimes * grannys;
-            expactationTimeHour = minute / minutesInHour;
-            expactationTimeMinute = minute % minutesInHour;
+            totalMinutes = visitTimes * grannys;
+            expactationTimeHour = totalMinutes / minutesInHour;
+            expactationTimeMinute = totalMinutes % minutesInHour;
             Console.WriteLine("Вы должны отстоять в очереди " + expactationTimeHour + " ч. " + expactationTimeMinute + " мин.");
             Console.ReadLine();
         }
