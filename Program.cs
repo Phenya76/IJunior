@@ -5,10 +5,10 @@
         public static void Main(string[] args)
         {
             char symbol = 'a';
-            string myName = "Aleks";
+            string name  = "Aleks";
             int cold = -20;
-            uint helth = 100;
-            float sumRur = 12.5f;
+            uint health = 100;
+            float widthBox = 12.5f;
             double price = 4990;
             decimal balance = 300000.87984m;
             ushort amountPatrons = 60;
