@@ -2,8 +2,8 @@ public static void Main(string[] args)
         {
             int picturesInRow = 3;
             int amountPictures = 52;
-            int filledRow = amountPictures / picturesInRow;
+            int filledRows = amountPictures / picturesInRow;
             int remainderPictures = amountPictures % picturesInRow;
 
-            Console.WriteLine(filledRow + " amount rows\n" + remainderPictures + " remainder");
+            Console.WriteLine(filledRows + " amount rows\n" + remainderPictures + " remainder");
         }
