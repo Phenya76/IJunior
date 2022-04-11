@@ -2,9 +2,10 @@ public static void Main(string[] args)
         {
             double crystalCoust = 84.7;
             Console.WriteLine("Сколько золота у вас есть?");
-            double gold = double.Parse(Console.ReadLine()) % crystalCoust;
+            double gold = double.Parse(Console.ReadLine());
             Console.WriteLine("Сколько кристаллов вы хотите купить по " + crystalCoust + "?");
-            int purechasedCrystalls = int.Parse(Console.ReadLine());
-            Console.WriteLine("Остаток золота " + Math.Round(gold, 2) + "\nОстаток кристаллов " + purechasedCrystalls);
-            Console.ReadLine();
+            int crystall = int.Parse(Console.ReadLine());
+            gold = gold - crystall * crystalCoust;
+            gold = Math.Round(gold, 2);
+            Console.WriteLine("Остаток золота " + gold + "\nОстаток кристаллов " + crystall);
         }
