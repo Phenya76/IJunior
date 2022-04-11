@@ -1,0 +1,10 @@
+public static void Main(string[] args)
+        {
+            double crystalCoust = 84.7;
+            Console.WriteLine("Сколько золота у вас есть?");
+            double gold = double.Parse(Console.ReadLine());
+            Console.WriteLine("Сколько кристаллов вы хотите купить по " + crystalCoust + "?");
+            int purechasedCrystalls = int.Parse(Console.ReadLine());
+            double remainderGold = gold % crystalCoust;
+            Console.WriteLine("Остаток золота " + remainderGold + "\nОстаток кристаллов " + purechasedCrystalls);
+        }
