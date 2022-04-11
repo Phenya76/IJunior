@@ -4,5 +4,4 @@ public static void Main(string[] args)
             int totalRow = int.Parse(Console.ReadLine());
             Console.WriteLine(totalRow / row + " amount rows");
             Console.WriteLine(totalRow % 3 + " remainder");
-
         }
