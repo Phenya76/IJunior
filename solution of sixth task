@@ -1,0 +1,21 @@
+public static void Main(string[] args)
+        {
+            int row = 3;
+            int amountPicture = int.Parse(Console.ReadLine());
+            int amountRow = amountPicture / row;
+            if (amountPicture > 0)
+            {
+                if (amountPicture <= 52)
+                {
+                    Console.WriteLine(amountRow + " рядов можно будет вывести");
+                    Console.WriteLine(amountRow % 3 + " остаток");
+                }
+                else
+                {
+                    Console.WriteLine("У вас нет столько картинок");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Недостаточно картинок");
+            }
