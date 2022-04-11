@@ -1,0 +1,11 @@
+class Program
+    {
+        public static void Main(string[] args)
+        {
+            string firstName = "Парфентьев";
+            string lastName = "Александр";
+            Console.WriteLine(firstName + " " + lastName);
+            Console.WriteLine("{0} {1}", lastName, firstName);
+            Console.ReadLine();
+        }
+    }
