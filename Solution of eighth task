@@ -1,0 +1,36 @@
+//or so:
+
+public static void Main(string[] args)
+        {
+            int grannys;
+            int expactationTimeMinute;
+            int expactationTimeHour;
+            int visitTimes = 10;
+
+            Console.WriteLine("Сколько старушек перед тобой в очереди?");
+            grannys = int.Parse(Console.ReadLine());
+            expactationTimeMinute = visitTimes * grannys;
+            expactationTimeHour = expactationTimeMinute / 60;
+            expactationTimeMinute %= 60;
+            Console.WriteLine("Вы должны отстоять в очереди " + expactationTimeHour + " ч. " + expactationTimeMinute + " мин.");
+            Console.ReadLine();
+        }
+        
+        //or so:
+        
+        public static void Main(string[] args)
+        {
+            int minute;
+            int grannys;
+            int expactationTimeMinute;
+            int expactationTimeHour;
+            int visitTimes = 10;
+
+            Console.WriteLine("Сколько старушек перед тобой в очереди?");
+            grannys = int.Parse(Console.ReadLine());
+            minute = visitTimes * grannys;
+            expactationTimeHour = minute / 60;
+            expactationTimeMinute = minute % 60;
+            Console.WriteLine("Вы должны отстоять в очереди " + expactationTimeHour + " ч. " + expactationTimeMinute + " мин.");
+            Console.ReadLine();
+        }
