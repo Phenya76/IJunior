@@ -1,0 +1,19 @@
+namespace FirstMeeting
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Как вас зовут?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Сколько вам лет?");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Кто вы по знаку зодиака?");
+            string zodiac = Console.ReadLine();
+            Console.WriteLine("Где вы работаете?");
+            string job = Console.ReadLine();
+            Console.WriteLine("Вас зовут " + name + ", вам " + age + ", вы " + zodiac + " и работаете " + job);
+            Console.ReadLine();
+        }
+    }
+}
