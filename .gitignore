@@ -1,0 +1,38 @@
+```
+# Dependencies
+node_modules/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# Build artifacts
+dist/
+build/
+target/
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.nupkg
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+```
