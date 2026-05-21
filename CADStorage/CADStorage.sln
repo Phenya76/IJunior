@@ -1,0 +1,17 @@
+{
+  "formatVersion": 2,
+  "projects": [
+    ".\\src\\BuildingBlocks\\CADStorage.Common\\CADStorage.Common.csproj",
+    ".\\src\\Services\\CADStorage.ApiGateway\\CADStorage.ApiGateway.csproj",
+    ".\\src\\Services\\CADStorage.Auth.Service\\CADStorage.Auth.Service.csproj",
+    ".\\src\\Services\\CADStorage.UserProfile.Service\\CADStorage.UserProfile.Service.csproj",
+    ".\\src\\Services\\CADStorage.Model.Service\\CADStorage.Model.Service.csproj",
+    ".\\src\\Services\\CADStorage.Catalog.Service\\CADStorage.Catalog.Service.csproj",
+    ".\\src\\Services\\CADStorage.Marketplace.Service\\CADStorage.Marketplace.Service.csproj",
+    ".\\src\\Services\\CADStorage.Search.Service\\CADStorage.Search.Service.csproj",
+    ".\\src\\Services\\CADStorage.Advertisement.Service\\CADStorage.Advertisement.Service.csproj",
+    ".\\src\\Services\\CADStorage.Media.Service\\CADStorage.Media.Service.csproj",
+    ".\\src\\Services\\CADStorage.Notification.Service\\CADStorage.Notification.Service.csproj",
+    ".\\src\\Services\\CADStorage.Chat.Service\\CADStorage.Chat.Service.csproj"
+  ]
+}
